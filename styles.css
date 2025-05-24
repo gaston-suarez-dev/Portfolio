@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: #333;
   font-family: sans-serif;
   padding-top: 100px;
 }
@@ -17,7 +17,7 @@ nav {
   padding: 10px 20px;
   color: white;
   flex-wrap: wrap;
-  background-color: grey;
+  background-color: #333;
   font-size: 17px;
   position: fixed;
   top: 0;
@@ -89,8 +89,20 @@ section {
   background-color: darkmagenta;
 }
 
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
 footer p {
   text-align: center;
+  padding: 3px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #00a1ee;
 }
 
 /* RESPONSIVE DESIGN */
@@ -111,18 +123,23 @@ footer p {
     display: block;
   }
 
-  ul {
-    flex-direction: column;
-    width: 100%;
-    display: none;
-    background-color: grey;
-    align-items: flex-end;
-    text-align: right;
-    padding-left: 10px;
-  }
-
   nav {
     font-size: 20px;
+  }
+
+  ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    flex-direction: column;
+    display: none;
+    background-color: #555;
+    align-items: flex-end;
+    text-align: right;
+    margin: 0;
+    padding: 10px 25px 10px 0;
+    z-index: 9999;
   }
 
   #menu-toggle:checked + .menu-icon + ul {
