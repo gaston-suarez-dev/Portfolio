@@ -84,6 +84,10 @@ section {
   background-color: darkmagenta;
 }
 
+footer p {
+  text-align: center;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1020px) {
   nav {
