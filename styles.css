@@ -7,6 +7,7 @@
 body {
   background-color: grey;
   font-family: sans-serif;
+  padding-top: 100px;
 }
 
 nav {
@@ -18,6 +19,10 @@ nav {
   flex-wrap: wrap;
   background-color: grey;
   font-size: 17px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .main-logo img {
