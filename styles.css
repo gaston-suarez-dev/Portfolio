@@ -1,8 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: grey;
+  font-family: sans-serif;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.main-logo img {
+  width: 150px;
+}
+
