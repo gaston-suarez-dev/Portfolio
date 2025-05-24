@@ -17,6 +17,7 @@ nav {
   color: white;
   flex-wrap: wrap;
   background-color: grey;
+  font-size: 17px;
 }
 
 .main-logo img {
@@ -52,7 +53,19 @@ li a:hover {
 }
 
 /* RESPONSIVE DESIGN */
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
+  nav {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 950px) {
+  nav {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 875px) {
   .menu-icon {
     display: block;
   }
