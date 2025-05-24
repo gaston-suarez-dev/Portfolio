@@ -52,6 +52,38 @@ li a:hover {
   background-color: cadetblue;
 }
 
+section {
+  padding: 50px;
+}
+
+#inicio {
+  background-color: orange;
+}
+
+#inicio h1 {
+  text-align: center;
+}
+
+#quienes-somos {
+  background-color: red;
+}
+
+#camino-de-santiago {
+  background-color: cornflowerblue;
+}
+
+#nuestro-camino {
+  background-color: forestgreen;
+}
+
+#noticias {
+  background-color: wheat;
+}
+
+#contacto {
+  background-color: darkmagenta;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1020px) {
   nav {
