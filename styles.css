@@ -16,9 +16,19 @@ nav {
   padding: 10px 20px;
   color: white;
   flex-wrap: wrap;
+  background-color: grey;
 }
 
 .main-logo img {
   width: 150px;
 }
 
+/* ocultar el checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* estilo del boton hamburguesa */
+.menu-icon {
+  cursor: pointer;
+}
