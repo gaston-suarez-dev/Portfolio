@@ -108,6 +108,42 @@ footer a {
   color: #00a1ee;
 }
 
+.noticias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.aciprensa {
+  display: grid;
+  grid-column: 1;
+}
+
+.airesantafe {
+  display: grid;
+  grid-column: 2;
+}
+
+.aciprensa img {
+  width: 600px;
+}
+
+.airesantafe img {
+  width: 600px;
+}
+
+.lt10 img {
+  width: 600px;
+}
+
+.airesantafe2 img {
+  width: 600px;
+}
+
+.telefe img {
+  width: 600px;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1020px) {
   nav {
