@@ -117,12 +117,32 @@ footer a {
 .aciprensa {
   display: grid;
   grid-column: 1;
+  grid-row: 1;
+  background-color: red;
 }
 
 .airesantafe {
   display: grid;
   grid-column: 2;
+  grid-row: 1;
+  background-color: blue;
 }
+
+.lt10 {
+  display: grid;
+  background-color: chocolate;
+}
+
+.airesantafe2 {
+  display: grid;
+  background-color: chartreuse;
+}
+
+.telefe {
+  display: grid;
+  background-color: darkseagreen;
+}
+
 
 .aciprensa img {
   width: 600px;
