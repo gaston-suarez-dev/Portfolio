@@ -85,7 +85,7 @@ section {
 }
 
 #noticias {
-  background-color: wheat;
+  background-color: #555;
 }
 
 #contacto {
@@ -108,82 +108,80 @@ footer a {
   color: #00a1ee;
 }
 
+#noticias h2 {
+  color: #ffc300;
+}
+
 .noticias {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  padding: 0px;
+  color: white;
+}
+
+.noticias h3 {
+  padding-top: 10px;
+}
+
+.noticias h4 {
+  font-size: 15px;
+  font-style: italic;
+  color: #ffc300;
+}
+
+.noticias > div {
+  padding: 20px;
 }
 
 .aciprensa {
-  display: grid;
-  grid-column: 1;
-  grid-row: 1;
-  background-color: red;
-  padding: 25px;
-}
-
-.airesantafe {
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
-  background-color: blue;
-  padding: 25px;
-}
-
-.lt10 {
-  display: grid;
-  grid-column: 1;
-  grid-row: 2;
-  background-color: chocolate;
-  padding: 25px;
-}
-
-.airesantafe2 {
-  display: grid;
-  grid-column: 2;
-  grid-row: 2;
-  background-color: chartreuse;
-  padding: 25px;
+  order: 1;
 }
 
 .telefe {
-  display: grid;
-  grid-column: 2;
-  grid-row: 1;
-  background-color: darkseagreen;
-  padding: 25px;
+  order: 2;
+}
+
+.airesantafe2 {
+  order: 3;
+}
+
+.airesantafe {
+  order: 4;
+}
+
+.lt10 {
+  order: 5;
 }
 
 .relleno {
-  display: grid;
-  grid-column: 2;
-  grid-row: 3;
-  background-color: darkseagreen;
-  padding: 25px;
+  order: 6;
 }
 
-.aciprensa img {
-  width: 600px;
+
+.aciprensa,
+.airesantafe,
+.lt10,
+.airesantafe2,
+.telefe,
+.relleno { background-color: #555}
+
+.noticias img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
-.airesantafe img {
-  width: 600px;
+.noticias a {
+  text-decoration: none;
+  color: white;
 }
 
-.lt10 img {
-  width: 600px;
+.contacto a {
+  text-decoration: none;
 }
 
-.airesantafe2 img {
-  width: 600px;
-}
-
-.telefe img {
-  width: 600px;
-}
-
-/* RESPONSIVE DESIGN */
+/* RESPONSIVE DESIGN MENU HAMBURGUESA*/
 @media (max-width: 1020px) {
   nav {
     font-size: 15px;
@@ -236,8 +234,9 @@ footer a {
   ul {
     position: absolute;
     top: 100%;
-    left: 0;
-    width: 100vw;
+    right: 0;
+    width: 300px;
+    height: 100vh;
     flex-direction: column;
     display: none;
     background-color: #555;
