@@ -65,23 +65,62 @@ section {
 }
 
 #inicio {
-  background-color: white;
+  background-color: #ffc300;
 }
 
 #inicio h1 {
-  text-align: center;
+  text-align: center; 
+  font-family: "Graduate";
+  font-weight: 900;
+  color: #333;
+  font-size: 5vw;
 }
 
 #quienes-somos {
-  background-color: red;
+  background-color: #555;
+  color: white;
+}
+
+.cont-quienes-somos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.cont-quienes-somos img {
+  width: 100%;
+  height: auto;
 }
 
 #camino-de-santiago {
   background-color: cornflowerblue;
 }
 
+.cont-caminos-europa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caminos-europa {
+  width: 50vw;
+}
+
 #nuestro-camino {
-  background-color: forestgreen;
+  background-color: #888;
+}
+
+.cont-sellos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sellos {
+  width: 80vw;
+  border: 3px solid #333;
 }
 
 #noticias {
@@ -89,7 +128,7 @@ section {
 }
 
 #contacto {
-  background-color: darkmagenta;
+  background-color: #777;
 }
 
 footer {
@@ -158,7 +197,6 @@ footer a {
   order: 6;
 }
 
-
 .aciprensa,
 .airesantafe,
 .lt10,
@@ -177,8 +215,13 @@ footer a {
   color: white;
 }
 
+.contacto {
+  font-weight: bold;
+}
+
 .contacto a {
   text-decoration: none;
+  color: #ffc300;
 }
 
 /* RESPONSIVE DESIGN MENU HAMBURGUESA*/
