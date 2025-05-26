@@ -112,6 +112,7 @@ footer a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .aciprensa {
@@ -119,30 +120,48 @@ footer a {
   grid-column: 1;
   grid-row: 1;
   background-color: red;
+  padding: 25px;
 }
 
 .airesantafe {
   display: grid;
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 1;
+  grid-row: 3;
   background-color: blue;
+  padding: 25px;
 }
 
 .lt10 {
   display: grid;
+  grid-column: 1;
+  grid-row: 2;
   background-color: chocolate;
+  padding: 25px;
 }
 
 .airesantafe2 {
   display: grid;
+  grid-column: 2;
+  grid-row: 2;
   background-color: chartreuse;
+  padding: 25px;
 }
 
 .telefe {
   display: grid;
+  grid-column: 2;
+  grid-row: 1;
   background-color: darkseagreen;
+  padding: 25px;
 }
 
+.relleno {
+  display: grid;
+  grid-column: 2;
+  grid-row: 3;
+  background-color: darkseagreen;
+  padding: 25px;
+}
 
 .aciprensa img {
   width: 600px;
