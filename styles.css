@@ -169,6 +169,10 @@ footer a {
   color: #ffc300;
 }
 
+.noticias p {
+  text-align: justify;
+}
+
 .noticias > div {
   padding: 20px;
 }
@@ -231,13 +235,13 @@ footer a {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 975px) {
   nav {
     font-size: 13px;
   }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 890px) {
   nav {
     font-size: 20px;
     position: fixed;
