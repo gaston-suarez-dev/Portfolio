@@ -65,7 +65,9 @@ section {
 }
 
 #inicio {
-  background-color: #ffc300;
+  background-image: url(assets/catedral.jpg);
+  background-size: 100vw;
+
 }
 
 #inicio h1 {
@@ -74,11 +76,19 @@ section {
   font-weight: 900;
   color: #333;
   font-size: 5vw;
+  text-shadow: 0 0 25px #0006;
 }
 
 #quienes-somos {
   background-color: #555;
   color: white;
+}
+
+#quienes-somos h2 {
+  font-family: "Graduate";
+  font-weight: 900;
+  font-size: 4vw;
+  text-shadow: 0 0 25px #0006;
 }
 
 .cont-quienes-somos {
@@ -98,6 +108,14 @@ section {
   background-color: cornflowerblue;
 }
 
+#camino-de-santiago h2 {
+  font-family: "Graduate";
+  font-weight: 900;
+  font-size: 4vw;
+  color: #ffc300;
+  text-shadow: 0 0 25px #0006;
+}
+
 .cont-caminos-europa {
   display: flex;
   justify-content: center;
@@ -110,6 +128,14 @@ section {
 
 #nuestro-camino {
   background-color: #888;
+}
+
+#nuestro-camino h2 {
+  font-family: "Graduate";
+  font-weight: 900;
+  font-size: 4vw;
+  text-shadow: 0 0 25px #0006;
+  color: #fff;
 }
 
 /* MENU DESPLEGABLE ETAPAS */
@@ -173,9 +199,26 @@ section {
   background-color: #555;
 }
 
+#noticias h2 {
+  font-family: "Graduate";
+  font-weight: 900;
+  font-size: 4vw;
+  text-shadow: 0 0 25px #0006;
+  color: #ffc300;
+}
+
 #contacto {
   background-color: #777;
 }
+
+#contacto h2 {
+  font-family: "Graduate";
+  font-weight: 900;
+  font-size: 4vw;
+  text-shadow: 0 0 25px #0006;
+  color: #222;
+}
+
 
 footer {
   background-color: #333;
@@ -191,10 +234,6 @@ footer p {
 footer a {
   text-decoration: none;
   color: #00a1ee;
-}
-
-#noticias h2 {
-  color: #ffc300;
 }
 
 .noticias {
