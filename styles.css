@@ -43,7 +43,7 @@ nav {
   display: none;
 }
 
-ul {
+.ul-burger {
   list-style: none;
   display: flex;
   gap: 20px;
@@ -112,22 +112,51 @@ section {
   background-color: #888;
 }
 
-#menu-etapas * { list-style:none;}
-#menu-etapas li{ line-height:180%;}
-#menu-etapas li a{color:#222; text-decoration:none;}
-#menu-etapas li a:before{ content:"\025b8"; color:#ddd; margin-right:4px;}
+/* MENU DESPLEGABLE ETAPAS */
+#menu-etapas * { 
+  list-style:none;
+}
+
+#menu-etapas li{ 
+  line-height:180%;
+}
+
+#menu-etapas li a{
+  color:#222; 
+  text-decoration:none;
+}
+
+#menu-etapas li a:before{ 
+  content:"\025b8"; 
+  color:#ddd; 
+  margin-right:4px;
+}
+
 #menu-etapas input[name="list"] {
 	position: absolute;
 	left: -1000em;
-	}
-#menu-etapas label:before{ content:"\025b8"; margin-right:4px;}
-#menu-etapas input:checked ~ label:before{ content:"\025be";}
-#menu-etapas .interior{display: none;}
-#menu-etapas input:checked ~ ul{display:block;}
+}
+
+#menu-etapas label:before{ 
+  content:"\025b8"; 
+  margin-right:4px;
+}
+
+#menu-etapas input:checked ~ label:before{ 
+  content:"\025be";
+}
+
+#menu-etapas .interior{
+  display: none;
+}
+
+#menu-etapas input:checked ~ ul{
+  display:block;
+}
+
 #menu-etapas img {
   width: 50vw;
 }
-
 
 .cont-sellos {
   display: flex;
