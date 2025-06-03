@@ -14,8 +14,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  color: white;
+  padding: 10px 25px;
+  color: #fff;
   flex-wrap: wrap;
   background-color: #333;
   font-size: 17px;
@@ -51,13 +51,14 @@ nav {
 
 li a {
   text-decoration: none;
-  color: white;
-  padding: 8px 12px;
+  color: #fff;
+  padding-top: 15px;
   display: block;
 }
 
 li a:hover {
-  background-color: cadetblue;
+  color: #ffc300;
+  transition: color 0.3s ease;
 }
 
 section {
@@ -75,7 +76,7 @@ section {
   font-family: "Graduate";
   font-weight: 900;
   color: #222;
-  font-size: (min)4rem max(10px);
+  font-size: min(75px);
   text-shadow: 0 0 75px 25px #000;
 }
 
@@ -215,7 +216,7 @@ section {
 }
 
 #menu-etapas input:checked ~ label{ 
-  color: #ccc;
+  color: #ffc300;
 }
 
 #menu-etapas .interior{
@@ -231,7 +232,7 @@ section {
 }
 
 .menu-etapas label:hover {
-  color: #ccc;
+  color: #ffc300;
   transition: color 0.3s ease;
   cursor: pointer;
 }
@@ -356,13 +357,35 @@ footer a {
   color: white;
 }
 
+.noticias a:hover {
+  color: #aaa;
+  transition: color 0.3s ease;
+}
+
 .contacto {
   font-weight: bold;
 }
 
 .contacto a {
   text-decoration: none;
-  color: #ffc300;
+}
+
+.instagram {
+  color: #ffc300
+}
+
+.instagram:hover {
+  color: #ffdd5d;
+  transition: color 0.3s ease;
+}
+
+.youtube {
+  color: #222;
+}
+
+.youtube:hover {
+  color: #444;
+  transition: color 0.3s ease;
 }
 
 /* RESPONSIVE DESIGN MENU HAMBURGUESA*/
