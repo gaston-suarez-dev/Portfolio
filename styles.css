@@ -65,7 +65,7 @@ section {
 }
 
 #inicio {
-  background-image: url(assets/catedral.jpg);
+  background-image: url(assets/20240809_073520.jpg);
   background-size: 100vw;
 
 }
@@ -74,9 +74,17 @@ section {
   text-align: center; 
   font-family: "Graduate";
   font-weight: 900;
-  color: #333;
-  font-size: 5vw;
-  text-shadow: 0 0 25px #0006;
+  color: #222;
+  font-size: (min)4rem max(10px);
+  text-shadow: 0 0 75px 25px #000;
+}
+
+#inicio p {
+  color: #222;
+  text-shadow: 0 0 75px 25px #0006;
+  font-size: 3vw;
+  text-align: center;
+  font-weight: bold;
 }
 
 #quienes-somos {
@@ -87,8 +95,22 @@ section {
 #quienes-somos h2 {
   font-family: "Graduate";
   font-weight: 900;
-  font-size: 4vw;
+  font-size: 2.5rem;
   text-shadow: 0 0 25px #0006;
+  text-align: center;
+}
+
+#quienes-somos h3 {
+  font-family: "Graduate";
+  font-weight: 900;
+  font-size: 2rem;
+  text-shadow: 0 0 25px #0006;
+}
+
+#quienes-somos p {
+  font-size: 1rem;
+  text-shadow: 0 0 25px #0006;
+  padding-top: 10px;
 }
 
 .cont-quienes-somos {
@@ -116,14 +138,29 @@ section {
   text-shadow: 0 0 25px #0006;
 }
 
+#camino-de-santiago p {
+  padding-top: 10px;
+  color: #222;
+}
+
+#camino-de-santiago h6 {
+  text-align: center;
+  padding-top: 8px;
+}
+
 .cont-caminos-europa {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 .caminos-europa {
   width: 50vw;
+}
+
+.apostol-santiago {
+  width: 25.5vw;
 }
 
 #nuestro-camino {
@@ -136,6 +173,11 @@ section {
   font-size: 4vw;
   text-shadow: 0 0 25px #0006;
   color: #fff;
+}
+
+#nuestro-camino h6 {
+  text-align: center;
+  padding-top: 8px;
 }
 
 /* MENU DESPLEGABLE ETAPAS */
@@ -172,6 +214,10 @@ section {
   content:"\025be";
 }
 
+#menu-etapas input:checked ~ label{ 
+  color: #ccc;
+}
+
 #menu-etapas .interior{
   display: none;
 }
@@ -182,6 +228,12 @@ section {
 
 #menu-etapas img {
   width: 50vw;
+}
+
+.menu-etapas label:hover {
+  color: #ccc;
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .cont-sellos {
