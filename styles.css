@@ -76,14 +76,14 @@ section {
   font-family: "Graduate";
   font-weight: 900;
   color: #222;
-  font-size: min(75px);
+  font-size: 4rem;
   text-shadow: 0 0 75px 25px #000;
 }
 
 #inicio p {
   color: #222;
   text-shadow: 0 0 75px 25px #0006;
-  font-size: 3vw;
+  font-size: 2rem;
   text-align: center;
   font-weight: bold;
 }
@@ -109,8 +109,7 @@ section {
 }
 
 #quienes-somos p {
-  font-size: 1rem;
-  text-shadow: 0 0 25px #0006;
+  font-size: 1.2rem;
   padding-top: 10px;
 }
 
@@ -125,6 +124,7 @@ section {
 .cont-quienes-somos img {
   width: 100%;
   height: auto;
+  padding-top: 10px;
 }
 
 #camino-de-santiago {
@@ -134,14 +134,16 @@ section {
 #camino-de-santiago h2 {
   font-family: "Graduate";
   font-weight: 900;
-  font-size: 4vw;
+  font-size: 2.5rem;
   color: #ffc300;
   text-shadow: 0 0 25px #0006;
+  text-align: center;
 }
 
 #camino-de-santiago p {
   padding-top: 10px;
   color: #222;
+  font-size: 1.2rem;
 }
 
 #camino-de-santiago h6 {
@@ -171,14 +173,31 @@ section {
 #nuestro-camino h2 {
   font-family: "Graduate";
   font-weight: 900;
-  font-size: 4vw;
+  font-size: 2.5rem;
   text-shadow: 0 0 25px #0006;
   color: #fff;
+  text-align: center;
+}
+
+#nuestro-camino h3 {
+  font-family: "Graduate";
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-shadow: 0 0 25px #0006;
+  color: #333;
 }
 
 #nuestro-camino h6 {
   text-align: center;
   padding-top: 8px;
+}
+
+#nuestro-camino label {
+  font-size: 1.2rem;
+}
+
+#nuestro-camino p {
+  font-size: 1.2rem;
 }
 
 /* MENU DESPLEGABLE ETAPAS */
@@ -255,7 +274,7 @@ section {
 #noticias h2 {
   font-family: "Graduate";
   font-weight: 900;
-  font-size: 4vw;
+  font-size: 2.5rem;
   text-shadow: 0 0 25px #0006;
   color: #ffc300;
 }
@@ -267,11 +286,14 @@ section {
 #contacto h2 {
   font-family: "Graduate";
   font-weight: 900;
-  font-size: 4vw;
+  font-size: 2.5rem;
   text-shadow: 0 0 25px #0006;
   color: #222;
 }
 
+#contacto p {
+  font-size: 1.2rem;
+}
 
 footer {
   background-color: #333;
