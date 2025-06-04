@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #fff;
   font-family: sans-serif;
@@ -45,7 +49,6 @@ nav {
 
 .menu-icon:hover {
   color: #ffc300;
-  transition: color 0.3s ease;
 }
 
 .ul-burger {
@@ -63,7 +66,6 @@ li a {
 
 li a:hover {
   color: #ffc300;
-  transition: color 0.3s ease;
 }
 
 section {
@@ -73,7 +75,9 @@ section {
 /*   SECCIÓN INICIO   */
 #inicio {
   background-image: url(assets/inicio.webp);
-  background-size: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #inicio h1 {
@@ -131,9 +135,11 @@ section {
 }
 
 .cont-quienes-somos img {
-  width: 80%;
+  max-width: 100%;
+  width: 80vw;
   height: auto;
   padding-top: 10px;
+  box-sizing: border-box;
 }
 
 /*   SECCIÓN CAMINO DE SANTIAGO   */
@@ -275,8 +281,10 @@ section {
 }
 
 .sellos {
+  max-width: 100%;
   width: 80vw;
   border: 3px solid #333;
+  box-sizing: border-box;
 }
 
 /*   SECCIÓN NOTICIAS   */
@@ -398,7 +406,6 @@ section {
 
 .instagram:hover {
   color: #ffdd5d;
-  transition: color 0.3s ease;
 }
 
 .youtube {
@@ -407,7 +414,6 @@ section {
 
 .youtube:hover {
   color: #444;
-  transition: color 0.3s ease;
 }
 
 #inicio,
