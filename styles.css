@@ -32,6 +32,10 @@ nav {
   box-shadow: 0 0 25px #0006;
 }
 
+section {
+  padding: 50px 15px;
+}
+
 .main-logo img {
   width: 130px;
 }
@@ -125,18 +129,20 @@ section {
 
 .cont-quienes-somos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
   justify-items: center;
   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .cont-quienes-somos img {
-  max-width: 100%;
-  width: 80vw;
+  width: 100%;
   height: auto;
   padding-top: 10px;
   box-sizing: border-box;
+  object-fit: cover;
 }
 
 /*   SECCIÓN CAMINO DE SANTIAGO   */
@@ -293,9 +299,10 @@ section {
 
 .noticias {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
-  padding: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
   color: white;
   max-width: 100%;
   box-sizing: border-box;
@@ -319,6 +326,7 @@ section {
 
 .noticias > div {
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .aciprensa {
