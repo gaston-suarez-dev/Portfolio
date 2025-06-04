@@ -119,6 +119,7 @@ section {
 #quienes-somos p {
   font-size: 1.2rem;
   padding-top: 10px;
+  text-align: justify;
 }
 
 .cont-quienes-somos {
@@ -130,7 +131,7 @@ section {
 }
 
 .cont-quienes-somos img {
-  width: 100%;
+  width: 80%;
   height: auto;
   padding-top: 10px;
 }
@@ -153,6 +154,7 @@ section {
   padding-top: 10px;
   color: #222;
   font-size: 1.2rem;
+  text-align: justify;
 }
 
 #camino-de-santiago h6 {
@@ -208,6 +210,7 @@ section {
 
 #nuestro-camino p {
   font-size: 1.2rem;
+  text-align: justify;
 }
 
 /* MENU DESPLEGABLE ETAPAS */
@@ -226,8 +229,7 @@ section {
 
 #menu-etapas li a:before{ 
   content:"\025b8"; 
-  color:#ddd; 
-  margin-right:4px;
+  color:#ddd;
 }
 
 #menu-etapas input[name="list"] {
@@ -237,7 +239,6 @@ section {
 
 #menu-etapas label:before{ 
   content: "\025b8"; 
-  margin-right: 4px;
 }
 
 #menu-etapas input:checked ~ label:before{ 
@@ -256,8 +257,9 @@ section {
   display: block;
 }
 
-#menu-etapas img {
-  width: 50vw;
+.menu-etapas ul {
+  margin: 0;
+  padding: 0;
 }
 
 .menu-etapas label:hover {
@@ -300,6 +302,7 @@ section {
 
 .noticias h3 {
   padding-top: 10px;
+  max-width: 90%;
 }
 
 .noticias h4 {
@@ -310,6 +313,7 @@ section {
 
 .noticias p {
   text-align: justify;
+  max-width: 90%;
 }
 
 .noticias > div {
@@ -348,9 +352,8 @@ section {
 .relleno { background-color: #555}
 
 .noticias img {
-  width: 100%;
   height: auto;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .noticias a {
@@ -377,7 +380,8 @@ section {
 }
 
 #contacto p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  max-width: 90%;
 }
 
 .contacto {
@@ -462,6 +466,7 @@ footer a {
 
   body {
     padding-top: 100px;
+    box-sizing: border-box;
   }
 
   .main-logo {
