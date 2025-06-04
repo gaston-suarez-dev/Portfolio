@@ -85,13 +85,13 @@ section {
   text-align: center; 
   font-family: "Graduate";
   font-weight: 900;
-  color: #222;
+  color: #fff;
   font-size: 4rem;
   text-shadow: 0 0 75px 25px #000;
 }
 
 #inicio p {
-  color: #222;
+  color: #fff;
   text-shadow: 0 0 75px 25px #0006;
   font-size: 2rem;
   text-align: center;
@@ -301,8 +301,6 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
   color: white;
   max-width: 100%;
   box-sizing: border-box;
@@ -310,7 +308,7 @@ section {
 
 .noticias h3 {
   padding-top: 10px;
-  max-width: 90%;
+  width: 100%;
 }
 
 .noticias h4 {
@@ -321,11 +319,11 @@ section {
 
 .noticias p {
   text-align: justify;
-  max-width: 90%;
+  width: 100%;
 }
 
 .noticias > div {
-  padding: 20px;
+  padding: 15px;
   box-sizing: border-box;
 }
 
@@ -362,7 +360,8 @@ section {
 
 .noticias img {
   height: auto;
-  max-width: 90%;
+  width: 100%;
+  display: block;
 }
 
 .noticias a {
