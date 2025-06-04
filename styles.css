@@ -239,7 +239,6 @@ section {
 
 #menu-etapas li a:before{ 
   content:"\025b8"; 
-  color:#ddd;
 }
 
 #menu-etapas input[name="list"] {
@@ -248,7 +247,9 @@ section {
 }
 
 #menu-etapas label:before{ 
-  content: "\025b8"; 
+  content: "\025b8";
+  color: #ffc300;
+  padding-right: 5px;
 }
 
 #menu-etapas input:checked ~ label:before{ 
@@ -261,6 +262,10 @@ section {
 
 #menu-etapas input:checked ~ ul{
   display: block;
+}
+
+.menu-etapas p {
+  color: #fff;
 }
 
 .menu-etapas ul {
@@ -276,6 +281,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 15px;
 }
 
 .sellos {
